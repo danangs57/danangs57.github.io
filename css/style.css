@@ -540,6 +540,9 @@ body.offcanvas .colorlib-nav-toggle {
   padding: 0 4.5em;
 }
 @media screen and (max-width: 878px) {
+  .responsive-container {
+    flex-direction: column;
+  }
   .colorlib-narrow-content {
     width: 100%;
     padding: 0 1em;
@@ -567,7 +570,11 @@ body.offcanvas .colorlib-nav-toggle {
   width: 100%;
   display: block;
 }
+
 @media screen and (max-width: 768px) {
+  .responsive-container {
+    flex-direction: column;
+  }
   .colorlib-experience,
   .colorlib-skills,
   .colorlib-education,
